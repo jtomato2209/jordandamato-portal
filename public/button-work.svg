@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- WORK Button with rounded rectangle background -->
+  <rect x="20" y="20" width="360" height="80" rx="20" ry="20" fill="#2a2a2a" stroke="#3a3a3a" stroke-width="2"/>
+  
+  <!-- Text: Work -->
+  <text x="80" y="75" font-family="Poppins, Arial, sans-serif" font-size="40" font-weight="300" fill="#ffffff" letter-spacing="1">Work</text>
+  
+  <!-- Briefcase Icon -->
+  <g transform="translate(300, 55)">
+    <!-- Briefcase body -->
+    <rect x="-28" y="-8" width="56" height="32" fill="#8b6f47" stroke="#654321" stroke-width="1.5" rx="3"/>
+    
+    <!-- Briefcase top (lid area) -->
+    <rect x="-28" y="-12" width="56" height="6" fill="#a0826d" stroke="#654321" stroke-width="1.5" rx="2"/>
+    
+    <!-- Handle -->
+    <path d="M -15,-12 Q -15,-25 0,-25 Q 15,-25 15,-12" fill="none" stroke="#8b6f47" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Center lock/clasp -->
+    <rect x="-2" y="-10" width="4" height="4" fill="#d4a574" stroke="#654321" stroke-width="0.75" rx="0.5"/>
+    
+    <!-- Left pocket -->
+    <rect x="-20" y="-2" width="12" height="12" fill="#7a5c3f" stroke="#5a3c1f" stroke-width="1" rx="1"/>
+    
+    <!-- Right accent -->
+    <rect x="8" y="-2" width="12" height="12" fill="#9a7d5f" stroke="#7a5d3f" stroke-width="1" rx="1"/>
+    
+    <!-- Gold clasp detail -->
+    <circle cx="0" cy="8" r="2" fill="#d4a574"/>
+  </g>
+</svg>
