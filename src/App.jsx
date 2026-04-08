@@ -103,11 +103,11 @@ const JordanDamatoPortal = () => {
         {currentPage === 'home' && (
           <div className="min-h-screen flex flex-col items-center justify-center px-4">
             <div className="mb-24 animate-fade-in">
-              <img src={isDarkMode ? '/logo-dark.svg' : '/logo-light.svg'} alt="Jordan D'Amato" className="h-32 md:h-40 transition-opacity duration-300" />
+              <img src={isDarkMode ? '/logo-dark.svg' : '/logo-light.svg'} alt="Jordan D'Amato" className="h-16 md:h-20 transition-opacity duration-300" />
             </div>
 
             <div className="mb-24 w-full max-w-3xl">
-              <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
+              <div className="flex flex-row gap-6 md:gap-12 items-center justify-center">
                 <button onClick={() => handleToggle('home')} className={`transition-all duration-500 transform ${currentPage === 'home' ? 'scale-100' : 'scale-75 md:scale-90 opacity-60 hover:opacity-80'}`}>
                   <img src="/button-home.svg" alt="Home" className="h-20 md:h-24 w-auto drop-shadow-lg hover:drop-shadow-xl transition-all" style={{minHeight: "80px"}} />
                 </button>
@@ -142,7 +142,7 @@ const JordanDamatoPortal = () => {
           <div className="min-h-screen flex flex-col items-center justify-center px-4">
             <div className="w-full max-w-md animate-fade-in">
               <div className="mb-12 flex justify-center">
-                <img src={isDarkMode ? '/logo-dark.svg' : '/logo-light.svg'} alt="Jordan D'Amato" className="h-24" />
+                <img src={isDarkMode ? '/logo-dark.svg' : '/logo-light.svg'} alt="Jordan D'Amato" className="h-16" />
               </div>
               <h1 className="text-4xl font-light text-center mb-12">Work Portal</h1>
               <form onSubmit={handleLogin} className="space-y-6">
