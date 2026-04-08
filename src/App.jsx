@@ -109,11 +109,11 @@ const JordanDamatoPortal = () => {
             <div className="mb-24 w-full max-w-3xl">
               <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
                 <button onClick={() => handleToggle('home')} className={`transition-all duration-500 transform ${currentPage === 'home' ? 'scale-100' : 'scale-75 md:scale-90 opacity-60 hover:opacity-80'}`}>
-                  <img src="/button-home.svg" alt="Home" className="h-20 md:h-24 drop-shadow-lg hover:drop-shadow-xl transition-all" />
+                  <img src="/button-home.svg" alt="Home" className="h-20 md:h-24 w-auto drop-shadow-lg hover:drop-shadow-xl transition-all" style={{minHeight: "80px"}} />
                 </button>
                 <div className="hidden md:block text-4xl font-light opacity-40">•</div>
                 <button onClick={() => handleToggle('work')} className={`transition-all duration-500 transform ${currentPage === 'work' ? 'scale-100' : 'scale-75 md:scale-90 opacity-60 hover:opacity-80'}`}>
-                  <img src="/button-work.svg" alt="Work" className="h-20 md:h-24 drop-shadow-lg hover:drop-shadow-xl transition-all" />
+                  <img src="/button-work.svg" alt="Work" className="h-20 md:h-24 w-auto drop-shadow-lg hover:drop-shadow-xl transition-all" style={{minHeight: "80px"}} />
                 </button>
               </div>
             </div>
